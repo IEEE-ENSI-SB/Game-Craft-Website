@@ -3,7 +3,7 @@ import IEEE from '../assets/IEEE/Logo.png'
 import CS from '../assets/IEEE/cs.458fc04a7bb451af9c54.png'
 function AboutUs() {
   return (
-    <div className='h-svh w-vw' >
+    <div className='min-h-screen w-vw md:min-h-[100vh] sm:min-h-[150vh] ss:min-h-[1100px] xs:min-h-[1300px]'>
       <div className='flex flex-wrap mt-20 justify-around'>
         <img src={IEEE} alt='ieee' className='w-[300px] text-white bg-white m-10'/>
         <span className='w-[500px] text-lg text-white mt-[50px]'>
