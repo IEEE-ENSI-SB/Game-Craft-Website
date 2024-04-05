@@ -1,5 +1,5 @@
 import React from 'react';
-import LightComponent from './LightCompnent'; 
+import LightComponent from './LightComponent'; 
 import game from '../assets/game.jpg';
 
 const Workshops = () => {
