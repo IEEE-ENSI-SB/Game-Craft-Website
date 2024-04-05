@@ -5,7 +5,7 @@ import News3 from '../assets/news/new3.png'
 import New from './ahmed/New'
 function News() {
   return (
-    <div className='flex flex-wrap min-h-svh'>
+    <div className='flex flex-wrap h-fit'>
       <New src={News1}/>
       <New src={News2}/>
       <New src={News3}/>
