@@ -123,17 +123,18 @@ export const benefits = [
   {
     id: "0",
     title: "GAME DEV Workshops",
-    text: "Organize interactive workshops addressing pivotal themes in game development, offering insights into vital facets of game design, coding, and artistic innovation. These workshops aim to provide participants with a comprehensive understanding of the intricate process of game development.",
+    text: "Organize interactive workshops addressing pivotal themes in game development, offering insights into vital facets of game design, coding, and artistic innovation. ",
     backgroundUrl: '/benefits/card-1.svg',
+    image:'/benefits/game1.png',
     light: true,
     
   },
   {
     id: "1",
     title: "Creativity",
-    text: "Promote an atmosphere conducive to creativity and imagination, where participants are encouraged to exchange ideas freely. This environment promotes collaboration and inspires innovative approaches to game development.",
+    text: "Promote an atmosphere conducive to creativity and imagination, where participants are encouraged to exchange ideas freely. ",
     backgroundUrl: '/benefits/card-2.svg',
-    
+    image:'/benefits/creativity.png',
     light: true,
   },
   {
@@ -141,6 +142,7 @@ export const benefits = [
     title: "Communication",
     text: "Provides an opportunity to connect with various stakeholders in the game development industry and immerse oneself in the vibrant community.",
     backgroundUrl: '/benefits/card-3.svg',
+    image:'/benefits/commi3.png',
     light: true,
   },
   
