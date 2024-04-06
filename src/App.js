@@ -10,6 +10,8 @@ import styles from "./style";
 import Sponsors from './components/Sponsors'
 import Hero from './components/Hero'
 import Counter from './components/Counter'
+import Workshops from './components/Workshops'
+import Timeline from './components/Timeline'
 
 function App() {
   return (
@@ -29,7 +31,8 @@ function App() {
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
       <News/>
-      <Program/>
+     <Workshops/>
+      <Timeline/>
       <AboutUs/>
       <ContactUs/>
       <Sponsors/>
