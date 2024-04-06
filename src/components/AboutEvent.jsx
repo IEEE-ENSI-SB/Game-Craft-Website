@@ -24,7 +24,7 @@ function AboutEvent() {
                 
                 <h5 className="h5 mb-5 text-white poppins text-2xl font-mediem">{item.title}</h5>
                 <p className="body-2 text-[17px] text-white">{item.text}</p> <br /> <br />
-                <img src={item.image} alt={item.title} className="h-[70px] w-[80px] bottom-[10px] " />
+                <img src={item.image} alt={item.title} className="h-[80px] w-[80px] bottom-[10px] " />
                 
 
               </div>

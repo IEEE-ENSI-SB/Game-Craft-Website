@@ -28,7 +28,7 @@ function App() {
       <AboutEvent/>
       </div>
     </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
       <News/>
      <Workshops/>
