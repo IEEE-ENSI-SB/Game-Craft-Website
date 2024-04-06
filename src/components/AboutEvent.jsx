@@ -1,19 +1,20 @@
 import React from 'react'
 import { benefits } from "../constants/index.js";
 import {GradientLight} from './design/Benefits'
+import style from "../style.js"
 
 function AboutEvent() {
   return (
     
     <div className='bg-black bg-opacity-40  bg-no-repeat bg-[length:100%_100%]  '>
-  <div className='text-white text-2xl font-stalinist mx-4 pt-2'>About Event</div>
+  <div className={`text-white text-2xl font-stalinist mx-4 pt-2  ${style.heading2} flex justify-center text-gradient`}>About Event</div>
   
-  <div className="flex flex-wrap gap-10 mb-10 mt-6 ml-10">
+  <div className="flex flex-wrap gap-10 mb-10 mt-6 ml-14">
     
           {benefits.map((item ,id) => (
             
             <div
-              className="block relative  bg-no-repeat bg-[length:100%_100%] md:max-w-[26rem] auto mb-12"
+              className="hover:scale-105 block relative  bg-no-repeat bg-[length:100%_100%] md:max-w-[26rem] auto mb-12"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import LightComponent from './LightComponent'; 
 import game from '../assets/game.jpg';
+import style from '../style';
 
 const Workshops = () => {
   
@@ -19,7 +20,7 @@ const Workshops = () => {
   
     return (
       <div>
-        <h1 style={{ textShadow: '2px 4px 6px ', color: '#000', fontSize: '2.7rem', position: 'relative' }}>
+        <h1 className={`text-white flex justify-center text-2xl font-stalinist mx-4 pt-2 ${style.heading2} text-gradient`}>
           Workshops 
         </h1>
         <br />
