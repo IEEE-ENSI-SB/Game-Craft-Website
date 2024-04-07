@@ -134,7 +134,7 @@ export const benefits = [
     title: "Creativity",
     text: "Promote an atmosphere conducive to creativity and imagination, where participants are encouraged to exchange ideas freely. ",
     backgroundUrl: '/benefits/card-2.svg',
-    image:'/benefits/creativity.png',
+    image:'/benefits/creativity5.png',
     light: true,
   },
   {
@@ -142,7 +142,7 @@ export const benefits = [
     title: "Communication",
     text: "Provides an opportunity to connect with various stakeholders in the game development industry and immerse oneself in the vibrant community.",
     backgroundUrl: '/benefits/card-3.svg',
-    image:'/benefits/commi3.png',
+    image:'/benefits/commi5.png',
     light: true,
   },
   
