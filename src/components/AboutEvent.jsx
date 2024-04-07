@@ -8,12 +8,12 @@ function AboutEvent() {
     <div className='bg-black bg-opacity-40  bg-no-repeat bg-[length:100%_100%]   '>
       <div className='text-white text-2xl font-stalinist mx-4 pt-2'> About Event </div>
   
-        <div className="flex flex-wrap gap-10 mb-10 mt-6 ml-10 mr-5 ">
+        <div className="flex flex-wrap gap-10 mb-10 mt-6 ml-10 mr-5  ">
     
           {benefits.map((item ,id) => (
             
             <div
-              className="block relative  bg-no-repeat bg-[length:100%_100%] md:max-w-[26rem] sm:max-x-[26rem] ss:max-x-[26rem] auto mb-12 hover:scale-110"
+              className="block relative  bg-no-repeat bg-[length:100%_100%]  md:max-w-[26rem] sm:max-x-[26rem] ss:max-x-[26rem] auto mb-12 hover:scale-110"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
 
