@@ -125,7 +125,7 @@ export const benefits = [
     title: "GAME DEV Workshops",
     text: "Organize interactive workshops addressing pivotal themes in game development, offering insights into vital facets of game design, coding, and artistic innovation. ",
     backgroundUrl: '/benefits/card-1.svg',
-    image:'/benefits/game1.png',
+    image:'/benefits/game4.png',
     light: true,
     
   },
